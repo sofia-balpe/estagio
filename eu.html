@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mim</title>
+    
+</head>
+<style>
+    #divForm{
+        background-color:rgb(235, 186, 222);
+        border: 2px solid rgb(255, 0, 225);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: larger;
+        text-align: center;
+       
+
+    }
+    #imagem{
+        border: 3px solid rgb(255, 0, 225);
+    }
+    #inicio{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: larger;
+    }
+   
+</style>
+<body style="background-color: rgb(225, 170, 225);">
+   <div id="inicio">
+    <h1>SOFIA BALDISSERA PEREIRA</h1>
+    <p>Possuo interesse interesse em Tecnologia da Informação</p>
+    <p>Tenho habilidades musicais</p>
+   </div> 
+    
+    <h2>Instrumentos</h2>
+    <h3>Alguns dos Instrumentos que tenho habilidade:</h3>
+
+    <img id= "imagem" style="height: 200px; width: 200px;" src="teclado.jpg" alt="imagem teclado"><br>
+    <label for="Teclado">Teclado</label><br>
+
+    <img id="imagem" style="height: 200px; width: 200px; " src="guitarra.jpg" alt="Guitarra"><br>
+    <label for="Guitarra"> Guitarra</label><br>
+
+    <img id="imagem" style=" height: 200px; width: 200px;"src= "Ukulele.jpg" alt="Uulele"> <br>
+    <label for="Ukulele">Ukulele</label><br>
+
+    <div id="divForm" >
+     <form method="post">
+        <strong>Você possui habilidade com algum instrumento musical?</strong> <br>
+        <input type="radio" name="Sim">
+        <label for="lradio"> Sim</label>
+        <input type="radio" name="Não">
+        <label for="lcss">Não</label><br>
+        <br>
+        <strong>Se sim, qual?</strong> <br>
+        <label for="NomeInstrumento">Nome do Instrumento</label><br>
+        <input type="text" name="Nome do instrumento"> <br>
+        <br>
+        <input type="submit" value="ENVIAR"><br>
+     </form>
+    </div>
+    
+</body>
+</html>
