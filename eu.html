@@ -1,65 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre mim</title>
-    
+
 </head>
 <style>
-    #divForm{
-        background-color:rgb(235, 186, 222);
+    #divForm {
+        background-color: rgb(235, 186, 222);
         border: 2px solid rgb(255, 0, 225);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: larger;
         text-align: center;
-       
-
     }
-    #imagem{
+
+    #imagem {
         border: 3px solid rgb(255, 0, 225);
     }
-    #inicio{
+
+    #inicio {
         text-align: center;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: larger;
     }
-   
 </style>
+
 <body style="background-color: rgb(225, 170, 225);">
-   <div id="inicio">
-    <h1>SOFIA BALDISSERA PEREIRA</h1>
-    <p>Possuo interesse interesse em Tecnologia da Informação</p>
-    <p>Tenho habilidades musicais</p>
-   </div> 
-    
+
+    <p>Antes do Script</p>
+    <script>
+        // alert ('Hello World');
+
+        // console.log('hello world');
+        const minhaUrl = document.URL;
+        document.write(minhaUrl);
+
+        var var1 = 0;
+        document.write(typeof var1);
+        while (var1 <= 10) {
+            document.write('<br>linha </br>' + var1 + '\n');
+            var1++;
+        }
+
+        switch (variavel = "Qualquer coisa") {
+            case 1:
+                document.write('Opção 1');
+                break;
+            case 2:
+                document.write('Opção 2');
+            default:
+                document.write('Padrão');
+                break;
+        }
+
+        var myArray = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis'];
+        myArray.forEach(function (value, key) {
+            if (key == [2] || key == [3]) {
+                console.log(value, key);
+            }
+
+        });
+
+        console.log(myArray[2]);
+
+        const var4 = 'teste';
+        const var5 = 'teste2';
+
+        function minhaFuncao(varx, vary) {//vai dar indefinido pois essa variável na verdade é uma nova variável que foi declarada
+            console.log(varx + "\n" + vary);
+        }
+        minhaFuncao(var4, var5);
+
+        const tamanho = myArray.push('sete');//criar uma variável antes exibe um retorno de quantos elementos tem no array
+        console.log(tamanho);
+      //  minhaFuncao(var5);
+    </script>
+    <p> Antes do script </p> <br>
+    <div id="inicio">
+        <h1>SOFIA BALDISSERA PEREIRA</h1>
+        <p>Possuo interesse interesse em Tecnologia da Informação</p>
+        <p>Tenho habilidades musicais</p>
+    </div>
+
     <h2>Instrumentos</h2>
     <h3>Alguns dos Instrumentos que tenho habilidade:</h3>
 
-    <img id= "imagem" style="height: 200px; width: 200px;" src="teclado.jpg" alt="imagem teclado"><br>
+    <img id="imagem" style="height: 200px; width: 200px;" src="teclado.jpg" alt="imagem teclado"><br>
     <label for="Teclado">Teclado</label><br>
 
     <img id="imagem" style="height: 200px; width: 200px; " src="guitarra.jpg" alt="Guitarra"><br>
     <label for="Guitarra"> Guitarra</label><br>
 
-    <img id="imagem" style=" height: 200px; width: 200px;"src= "Ukulele.jpg" alt="Uulele"> <br>
+    <img id="imagem" style=" height: 200px; width: 200px;" src="Ukulele.jpg" alt="Uulele"> <br>
     <label for="Ukulele">Ukulele</label><br>
 
-    <div id="divForm" >
-     <form method="post">
-        <strong>Você possui habilidade com algum instrumento musical?</strong> <br>
-        <input type="radio" name="Sim">
-        <label for="lradio"> Sim</label>
-        <input type="radio" name="Não">
-        <label for="lcss">Não</label><br>
-        <br>
-        <strong>Se sim, qual?</strong> <br>
-        <label for="NomeInstrumento">Nome do Instrumento</label><br>
-        <input type="text" name="Nome do instrumento"> <br>
-        <br>
-        <input type="submit" value="ENVIAR"><br>
-     </form>
+    <div id="divForm">
+        <form method="post">
+            <strong>Você possui habilidade com algum instrumento musical?</strong> <br>
+            <input type="radio" name="Sim">
+            <label for="lradio"> Sim</label>
+            <input type="radio" name="Não">
+            <label for="lcss">Não</label><br>
+            <br>
+            <strong>Se sim, qual?</strong> <br>
+            <label for="NomeInstrumento">Nome do Instrumento</label><br>
+            <input type="text" name="Nome do instrumento"> <br>
+            <br>
+            <input type="submit" value="ENVIAR"><br>
+        </form>
     </div>
-    
+
 </body>
+
 </html>
