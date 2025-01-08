@@ -1,0 +1,33 @@
+#divForm {
+    background-color: rgb(235, 186, 222);
+    border: 2px solid rgb(255, 0, 225);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+#imagem {
+    border: 3px solid rgb(255, 0, 225);
+}
+
+#inicio {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    background-color: rgb(255, 82, 255);
+}
+
+.sucess{
+    background-color: rgb(208, 238, 208);
+    border: 1px solid green;
+}
+.erro{
+    background-color: rgb(255, 190, 190);
+    border: 1px solid red
+}
+#submitId{
+    cursor:grab;
+}
+.texto{
+    color: green;
+}
