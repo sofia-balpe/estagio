@@ -1,6 +1,6 @@
 
 
-const minhaUrl = document.URL;
+/*const minhaUrl = document.URL;
 document.write(minhaUrl);
 
 var var1 = 0;
@@ -41,7 +41,7 @@ minhaFuncao(var4, var5);
 
 const tamanho = myArray.push('sete');//criar uma variável antes exibe um retorno de quantos elementos tem no array
 console.log(tamanho);
-//  minhaFuncao(var5);
+//  minhaFuncao(var5);*/
 
 window.onload = (event) => {
     var submit = document.getElementById('submitId');
@@ -51,41 +51,43 @@ window.onload = (event) => {
 function onLogin() {
 
    onLogin.class = submitId;
-    var txtOpcao = document.getElementById('idOp');
-    var nomeInstrumento = document.getElementById('idInstrumento');
+    var email = document.getElementById('idEmail');
+    var senha = document.getElementById('idSenha');
 
-    opcao = txtOpcao.value;
-    nomeIns = nomeInstrumento.value;
+    txtEmail = email.value;
+    txtSenha = senha.value;
 
-    if (opcao.trim() != "") {
-        console.log('Opção não é nula');
-        txtOpcao.classList.add("sucess");
-        txtOpcao.classList.remove("erro");
+    if (txtEmail.trim() != "") {
+        console.log('Email não é nula');
+       
     }
     else {
-        console.log('Opção nula')
-        txtOpcao.classList.add("erro");
-        txtOpcao.classList.remove("sucess");
+        console.log('Email nulo')
+       email.placeholder = "Preencha o campo email"
 
     }
-    if (nomeIns.trim() != "") {
-        console.log('Nome do INstrumento não é nulo');
-        nomeInstrumento.classList.add("sucess");
-        nomeInstrumento.classList.remove("erro");
+    if (txtSenha.trim() != "") {
+        console.log('Senha não é nula');
+        
     }
-    
     else{
-        console.log('Nome do instrumento nulo');
-        nomeInstrumento.class = "erro";
-        nomeInstrumento.classList.add("erro");
-        nomeInstrumento.classList.remove("sucess");
+        console.log('Senha Nula');
+        senha.placeholder = "Preencha o campo senha"
     }
 
-    if (opcao.trim() != "" && nomeIns.trim() != "") {
+    if (txtEmail.trim() != "" && txtSenha.trim() != "") {
       alert("Sucesso!");
+      senha.classList.add("sucess");
+      email.classList.add("sucess");
+      senha.classList.remove("erro");
+      email.classList.remove("erro");
     }
     else{
         alert("campos incorretos");
-
+        email.classList.add("erro");
+        email.classList.remove("sucess");
+        senha.classList.add("erro");
+        senha.classList.add("erro");
+        
     }
 }

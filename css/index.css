@@ -1,12 +1,17 @@
 #divForm {
-    background-color: rgb(235, 186, 222);
-    border: 2px solid rgb(255, 0, 225);
+    background-color: rgb(247, 243, 246);
+    border: 1px solid #9b989b;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
     text-align: center;
+    margin: 100px;
+    width: 300px;
+    margin-left: 37%;
+    padding-top: 300px;
+    
 }
 
-#imagem {
+/*#imagem {
     border: 3px solid rgb(255, 0, 225);
 }
 
@@ -16,6 +21,7 @@
     font-size: larger;
     background-color: rgb(255, 82, 255);
 }
+*/
 
 .sucess{
     background-color: rgb(208, 238, 208);
@@ -23,11 +29,47 @@
 }
 .erro{
     background-color: rgb(255, 190, 190);
-    border: 1px solid red
+    border: 1px solid red;
+    
+
 }
+
 #submitId{
-    cursor:grab;
+    cursor:pointer;
+    background-color: rgb(65, 65, 248);
+    font-family: 'Segoe UI';
+    border-radius: 10px;
+    padding: 5px 90px;
+    position: fixed;
+    margin-top:-8% ;
+    margin-left: -8%;
+   
 }
 .texto{
     color: green;
+}
+
+#idEmail{
+    position: fixed;
+    margin-top: -10%;
+    margin-left: -10.3%;
+    padding: 5px 55px;
+    text-align: left;
+}
+#idEmail::placeholder{
+
+
+}
+#idSenha{
+    position: fixed;
+    margin-top: -8%;
+    margin-left: -10.3%;
+    padding: 5px 55px;
+}
+
+#id_txtInsta{
+    position: fixed;
+    margin-top: -20%;
+    margin-left: 60px;
+
 }

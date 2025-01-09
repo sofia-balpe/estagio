@@ -4,25 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mim</title>
+    <title>Tela de login</title>
     <script src="javaScript/index.js"></script>
-    <link rel= "stylesheet" href="css/index.css"/>
-    
+    <link rel="stylesheet" href="css/index.css" />
+
 </head>
 
 
-<body style="background-color: rgb(225, 170, 225);">
+<body style="background-color: rgb(255, 255, 255);">
 
-    <p>Antes do Script</p>
-   
-    <p> Antes do script </p> <br>
-    <div id="inicio">
+   <!--  <div id="inicio">
         <h1>SOFIA BALDISSERA PEREIRA</h1>
         <p>Possuo interesse interesse em Tecnologia da Informação</p>
         <p>Tenho habilidades musicais</p>
     </div>
 
-    <h2>Instrumentos</h2>
+   <h2>Instrumentos</h2>
     <h3>Alguns dos Instrumentos que tenho habilidade:</h3>
 
     <img id="imagem" style="height: 200px; width: 200px;" src="teclado.jpg" alt="imagem teclado"><br>
@@ -32,21 +29,20 @@
     <label for="Guitarra"> Guitarra</label><br>
 
     <img id="imagem" style=" height: 200px; width: 200px;" src="Ukulele.jpg" alt="Uulele"> <br>
-    <label for="Ukulele">Ukulele</label><br>
+    <label for="Ukulele">Ukulele</label><br>-->
 
+    
     <div id="divForm">
         <form method="post">
-            <strong>Você possui habilidade com algum instrumento musical?</strong> <br>
-           
-            <input  class="" type="text" name="campoOpcao" id="idOp">
-       
-            <br>
-            <strong>Se sim, qual?</strong> <br>
-            <label for="NomeInstrumento">Nome do Instrumento</label><br>
+            <h1 id="id_txtInsta">Instagram</h1>
 
-            <input   class="" id="idInstrumento" name="NomeDoinstrumento"> <br>
+            <input class="" type="email" name="txtEmail" id="idEmail" placeholder="Email de usuário">
+
             <br>
-            <input onclick="onLogin()" id="submitId" type="button" value="ENVIAR"><br>
+            
+            <input class="" type="password" id="idSenha" name="txtSenha" placeholder="Senha de usuário"> <br>
+            <br>
+            <input onclick="onLogin()" id="submitId" type="button" value="Log in"><br>
         </form>
     </div>
 
