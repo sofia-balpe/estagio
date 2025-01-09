@@ -8,6 +8,7 @@
     width: 300px;
     margin-left: 37%;
     padding-top: 300px;
+    box-shadow: 3%;
     
 }
 
@@ -42,8 +43,8 @@
     padding: 5px 90px;
     position: fixed;
     margin-top:-8% ;
-    margin-left: -8%;
-   
+    margin-left: 2.5%;
+   display: flex;
 }
 .texto{
     color: green;
@@ -52,9 +53,10 @@
 #idEmail{
     position: fixed;
     margin-top: -10%;
-    margin-left: -10.3%;
+    margin-left: 0.8%;
     padding: 5px 55px;
     text-align: left;
+    display: flex;
 }
 #idEmail::placeholder{
 
@@ -63,13 +65,17 @@
 #idSenha{
     position: fixed;
     margin-top: -8%;
-    margin-left: -10.3%;
+    margin-left: 0.8%;
     padding: 5px 55px;
+    display: flex;
 }
 
 #id_txtInsta{
     position: fixed;
-    margin-top: -20%;
+    margin-top: -15%;
     margin-left: 60px;
-
+    display: flex;
+}
+#idNewConta{
+    margin-top: -6%;
 }
