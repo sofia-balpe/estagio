@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela Inicial</title>
-    <script src="assets/javaScript2/index.js"></script>
+    <script src="../assets/create.js"></script>
+    <link rel="stylesheet" href="../assets/css/create.css">
 </head>
 
 <body>
@@ -17,20 +18,27 @@
 
             <input type="password" id="idSenha" placeholder="Senha de usuário" required> <br>
 
-            <input type="email" name="" id="" placeholder="Email de usuário"> <br>
+            <input type="email" name="" id="idEmail" placeholder="Email de usuário"> <br>
             
-            <input type="submit" name="" id="" value="Entrar">
+            <input type="submit" name="" id="idSubmit" value="Entrar" onclick="event">
+            <hr>
 
-            <table id="tabela" class="tabela">
-                <thead id="thead">
-                    <tr>
-                     
-                    </tr>
-                </thead>
-                <tbody >
-        
-                </tbody>
-            </table>
+            <div id="divTable">
+                <table id="tabela" class="tabela">
+                    <thead id="thead">
+                        <tr>
+                
+                        </tr>
+                    </thead>
+                    <tbody id="idTbody" >
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </form>
     </div>
 </body>
