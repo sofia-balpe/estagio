@@ -1,0 +1,43 @@
+#idForm{
+    text-align: center;
+    border: 1px solid rgb(251, 180, 180);
+    background-color: bisque;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 15%;
+    box-shadow:  0 0 1em rgba(255, 193, 236, 0.561),
+    0 0 1em rgba(245, 197, 218, 0.612);
+    border-radius: 10px;
+}
+#divForm{
+    margin-top: -5%;
+    
+}
+
+#idSubmit{
+    margin-top: 20%;
+    margin-left: 85px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    display: flex;
+    background-color: pink;
+    font-family: 'Times';
+    font-size: larger;
+}
+
+#idNome{
+    margin-top: 10%;
+    padding: 5px 40px;
+    border-radius: 5px;
+}
+#idEmail{
+
+    margin-top: 15%;
+    padding: 5px 40px;
+    border-radius: 5px;
+}
+#idSenha{
+    margin-top: 15%;
+    padding: 5px 40px;
+    border-radius: 5px;
+}
